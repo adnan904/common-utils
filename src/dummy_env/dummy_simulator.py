@@ -112,23 +112,9 @@ class DummySimulator(SimulatorInterface):
                 },
             },
             traffic={
-                'pop0': {
-                    'sfc_1': {
-                        'a': 1,
-                        'b': 1,
-                    },
-                },
-                'pop1': {
-                    'sfc_1': {
-                        'b': 1,
-                        'c': 1,
-                    },
-                },
-                'pop2': {
-                    'sfc_1': {
-                        'c': 1,
-                    },
-                },
+                'pop0': 5.0,
+                'pop1': 0.0,
+                'pop2': 0.0,
             },
             network_stats={
                 'total_flows': 136,
